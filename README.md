@@ -52,3 +52,22 @@ Ensure your tests cover:
 ## Submission:
 
 Submit a pull request to this repository with your changes.
+
+## Notes:
+
+Challenges:
+-  getting around paramter extraction since net/http doesn't have that natively.
+-  implemented a regex to grab things after factorial/ => would have used github.com/gorilla/mux package.
+-  couldn't get the factorial for numbers larger than 65 so had to find a way to hold a larger int => used math/big.
+-  Getting the getter and setter locks to correctly.
+
+
+## Resources Used:
+-  https://go.dev/doc/tutorial/web-service-gin
+-  https://dev.to/envitab/how-to-build-an-api-using-go-ffk
+-  https://go.dev/blog/error-handling-and-go
+-  https://go.dev/doc/tutorial/add-a-test
+-  https://blog.devgenius.io/big-int-in-go-handling-large-numbers-is-easy-157cb272dd4f
+-  https://medium.com/@tanmaiyee.vadloori/implement-in-memory-caching-in-golang-8ce38c96206a
+-  https://pkg.go.dev/sync
+
